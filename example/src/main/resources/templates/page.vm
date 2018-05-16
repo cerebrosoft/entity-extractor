@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.dropdown, .dropdown-toggle, .dropdown-menu {
+	white-space: normal !important;
+}
+.dropdown-toggle {
+    color:red;
+}
+.dropdown-menu {
+    font-family:Arial !important;
+}
+.small-text {
+    color:grey; font-size:x-small;
+}
+</style>
+</head>
+<body>
+<span class="small-text" style="margin:10px">extraction time: $elapsed</span>
+    <div class="container">
+        <pre>$content</pre>
+    </div>
+</body>
+</html>
+
