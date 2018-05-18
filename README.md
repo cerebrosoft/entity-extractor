@@ -7,7 +7,7 @@ Extract entities based on a lexicon and/or library of patterns.
   * Utilizes Lucene analyzers to improve match results
   * Java 8+
 
-### Example
+### Usage
 
 ```java
 // create a lexicon
@@ -28,3 +28,7 @@ for (ExtractionRegion region : manifest.getRegions()) {
     //do something with entities inside each region
 }
 ```
+
+### Examples
+
+The **ner-example** project contains two examples that illustrate extracting entities from text and visually marking up those entities in a HTML page.
