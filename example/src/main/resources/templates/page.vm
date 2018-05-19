@@ -11,9 +11,10 @@
 }
 .dropdown-toggle {
     color:red;
+    border-bottom: 3px solid;
 }
 .dropdown-menu {
-    font-family:Arial !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 .small-text {
     color:grey; font-size:x-small;
