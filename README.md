@@ -31,4 +31,8 @@ for (ExtractionRegion region : manifest.getRegions()) {
 
 ### Examples
 
-The **ner-example** project contains two examples that illustrate extracting entities from text and visually marking up those entities in a HTML page.
+The **ner-example** project contains two example programs that illustrate extracting entities from text and using the results to mark up those entities in the document.
+
+![](doc/sig-example.png)
+
+
