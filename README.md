@@ -33,6 +33,6 @@ for (ExtractionRegion region : manifest.getRegions()) {
 
 The **ner-example** project contains two example programs that illustrate extracting entities from text and using the results to mark up those entities in the document.
 
-![](doc/sig-example.png)
+<img src="etc/sig-example.png" height="300"/>
 
 
