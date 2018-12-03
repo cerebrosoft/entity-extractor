@@ -4,15 +4,15 @@ public class DetectedEntity {
     private final String name;
     private final String matchedText;
     private final String type;
-    private final int start;
     private final int offset;
+    private final int length;
 
-    public DetectedEntity(String name, String matchedText, String type, int start, int offset) {
+    public DetectedEntity(String name, String matchedText, String type, int offset, int length) {
         this.name = name;
         this.matchedText = matchedText;
         this.type = type;
-        this.start = start;
         this.offset = offset;
+        this.length = length;
     }
 
     public String getName() {
@@ -27,12 +27,12 @@ public class DetectedEntity {
         return type;
     }
 
-    public int getStart() {
-        return start;
-    }
-
     public int getOffset() {
         return offset;
+    }
+
+    public int getLength() {
+        return length;
     }
 
 }
