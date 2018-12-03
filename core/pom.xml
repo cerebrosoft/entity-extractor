@@ -2,9 +2,9 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cerebrosoft</groupId>
     <artifactId>ner-core</artifactId>
+    <version>1.1</version>
     <packaging>jar</packaging>
-    <version>1.0</version>
-    <name>Entity Extractor</name>
+    <name>Entity Extractor Core</name>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
