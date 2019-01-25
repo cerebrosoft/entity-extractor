@@ -1,11 +1,13 @@
 package cerebrosoft.ner.server;
 
 public class DetectedEntity {
-    private final String name;
-    private final String matchedText;
-    private final String type;
-    private final int offset;
-    private final int length;
+    private  String name;
+    private  String matchedText;
+    private  String type;
+    private  int offset;
+    private  int length;
+    
+    public DetectedEntity() {};
 
     public DetectedEntity(String name, String matchedText, String type, int offset, int length) {
         this.name = name;
@@ -34,5 +36,26 @@ public class DetectedEntity {
     public int getLength() {
         return length;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMatchedText(String matchedText) {
+        this.matchedText = matchedText;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setOffset(int offset) {
+        this.offset = offset;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+    
 
 }

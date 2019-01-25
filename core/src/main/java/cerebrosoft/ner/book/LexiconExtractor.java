@@ -71,6 +71,7 @@ public class LexiconExtractor implements EntityExtractor {
             // otherwise, let's loop through each occurrence of the first token of the entity and see if we have a full
             // match
             for (int index : indicies) {
+                if (index + entityTokens.size() > tokenizedDocument.size()) continue;
                 List<String> docTokens = tokenizedDocument.subList(index, index + entityTokens.size())
                     .stream().map(token -> token.getItem())
                     .collect(Collectors.toList());

@@ -21,6 +21,7 @@ public class EntityExtractorTest {
         List<Entity> items = new ArrayList<>();
         items.add(new DefaultEntity("White Rabbit"));
         items.add(new DefaultEntity("rabbit"));
+        items.add(new DefaultEntity("rabbit hole"));
         items.add(new DefaultEntity("Alice"));
 
         EntityBook book = new EntityBook(items);
